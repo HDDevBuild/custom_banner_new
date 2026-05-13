@@ -1,0 +1,9 @@
+<odoo>
+    <template id="custom_banner" inherit_id="web.login">
+        <xpath expr="//body" position="before">
+            <div style="background-color: #c0392b; color: white; text-align: center; padding: 8px;">
+                Your custom message here
+            </div>
+        </xpath>
+    </template>
+</odoo>
